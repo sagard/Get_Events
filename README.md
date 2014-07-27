@@ -16,8 +16,16 @@ or
 Checkout the code and run Crawler.java.
 
 Logic:
-
+========
 It takes a input event url. 
 Read all links from that page and saves in a set 
 Examines each link to check if its a event(if it contains exhibition/event/workshop in title,or it contains buy tickets or signup/enroll on page)
 It the final Set contains 10 url ,it returns else it goes to root domain and checks all links on the root domain for event pages.
+
+Test urls:
+===========
+
+http://calendar.boston.com/lowell_ma/events/show/274127485-mrt-presents-shakespeares-will
+http://www.sfmoma.org/exhib_events/exhibitions/513
+http://www.workshopsf.org/?page_id=140&id=1328
+http://events.stanford.edu/events/353/35309/
